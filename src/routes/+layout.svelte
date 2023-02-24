@@ -1,6 +1,6 @@
 <script>
-	import { FluentBundle, FluentResource } from '@fluent/bundle';
 	import { FluentProvider } from '@nubolab-ffwd/svelte-fluent';
+	import { FluentBundle, FluentResource } from '@fluent/bundle';
 
 	const translations = 'hello = Hello, world!';
 	const bundle = new FluentBundle('en');
